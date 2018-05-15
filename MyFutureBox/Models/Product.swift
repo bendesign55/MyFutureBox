@@ -11,7 +11,7 @@ import Foundation
 struct Product {
     
     var investorProductId: Int
-    var moneybox: Double
+    var futurebox: Double
     var subscriptionAmount: Double
     var planValue: Double
     var annualLimit: Double
@@ -21,7 +21,7 @@ struct Product {
     
     enum CodingKeys: String, CodingKey {
         case investorProductId = "InvestorProductId"
-        case moneybox = "Moneybox"
+        case futurebox = "futurebox"
         case subscriptionAmount = "SubscriptionAmount"
         case planValue = "PlanValue"
         case productInfo
@@ -40,7 +40,7 @@ extension Product: Decodable {
     init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         investorProductId = try values.decode(Int.self, forKey: .investorProductId)
-        moneybox = try values.decode(Double.self, forKey: .moneybox)
+        futurebox = try values.decode(Double.self, forKey: .futurebox)
         subscriptionAmount = try values.decode(Double.self, forKey: .subscriptionAmount)
         planValue = try values.decode(Double.self, forKey: .planValue)
         isFavourite = try values.decode(Bool.self, forKey: .isFavourite)

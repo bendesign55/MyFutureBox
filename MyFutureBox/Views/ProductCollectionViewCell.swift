@@ -26,7 +26,7 @@ class ProductCollectionViewCell: UICollectionViewCell {
     func setupCell(_ product: Product) {
         
         self.productTitleLabel.text = product.productFriendlyName
-        self.savedValueLabel.text = product.moneybox.formatCurrency()
+        self.savedValueLabel.text = product.futurebox.formatCurrency()
         self.planValueLabel.text = product.planValue.formatCurrency()
         
         if product.isFavourite {

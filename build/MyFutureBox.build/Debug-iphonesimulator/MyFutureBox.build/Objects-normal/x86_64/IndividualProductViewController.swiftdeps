@@ -7,7 +7,7 @@ provides-member:
 - ["11MyFutureBox31IndividualProductViewControllerC", ""]
 provides-dynamic-lookup:
 - "addAmountButton"
-- "addToCurrentMoneybox"
+- "addToCurrentfuturebox"
 - "productTitleLabel"
 - "viewDidLoad"
 depends-top-level:
@@ -165,7 +165,7 @@ depends-member:
 - ["11MyFutureBox31IndividualProductViewControllerC", "UIButton"]
 - ["11MyFutureBox31IndividualProductViewControllerC", "UILabel"]
 - ["11MyFutureBox31IndividualProductViewControllerC", "addAmountButton"]
-- ["11MyFutureBox31IndividualProductViewControllerC", "addToCurrentMoneybox"]
+- ["11MyFutureBox31IndividualProductViewControllerC", "addToCurrentfuturebox"]
 - ["11MyFutureBox31IndividualProductViewControllerC", "deinit"]
 - ["11MyFutureBox31IndividualProductViewControllerC", "init"]
 - !private ["11MyFutureBox31IndividualProductViewControllerC", "present"]
@@ -224,7 +224,7 @@ depends-member:
 - ["So8NSObjectC", "UILabel"]
 - !private ["So8NSObjectC", "addAction"]
 - ["So8NSObjectC", "addAmountButton"]
-- ["So8NSObjectC", "addToCurrentMoneybox"]
+- ["So8NSObjectC", "addToCurrentfuturebox"]
 - !private ["So8NSObjectC", "async"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "main"]
@@ -366,7 +366,7 @@ depends-member:
 - ["So11UIResponderC", "UILabel"]
 - !private ["So11UIResponderC", "addAction"]
 - ["So11UIResponderC", "addAmountButton"]
-- ["So11UIResponderC", "addToCurrentMoneybox"]
+- ["So11UIResponderC", "addToCurrentfuturebox"]
 - ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "present"]
 - ["So11UIResponderC", "presentAlertView"]
@@ -441,7 +441,7 @@ depends-member:
 - ["So16UIViewControllerC", "UILabel"]
 - !private ["So16UIViewControllerC", "addAction"]
 - ["So16UIViewControllerC", "addAmountButton"]
-- ["So16UIViewControllerC", "addToCurrentMoneybox"]
+- ["So16UIViewControllerC", "addToCurrentfuturebox"]
 - ["So16UIViewControllerC", "init"]
 - !private ["So16UIViewControllerC", "present"]
 - ["So16UIViewControllerC", "presentAlertView"]
@@ -592,4 +592,4 @@ depends-external:
 - "/Users/benormos/Desktop/MyFutureBox/build/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-Swift.h"
 - "/Users/benormos/Desktop/MyFutureBox/build/Debug-iphonesimulator/KeychainSwift/KeychainSwift.framework/Modules/module.modulemap"
 - "/Users/benormos/Desktop/MyFutureBox/build/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/module.modulemap"
-interface-hash: "ded2b0b10cb91ae866c27d849fe9625e"
+interface-hash: "13a7b39a061a1c30a26f75a68d4a41f0"

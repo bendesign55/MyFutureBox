@@ -268,7 +268,7 @@
                                 <rect key="frame" x="16" y="168" width="343" height="30"/>
                                 <state key="normal" title="Add £10 to my future box"/>
                                 <connections>
-                                    <action selector="addToCurrentMoneybox:" destination="f2M-lS-MBm" eventType="touchUpInside" id="1VV-6M-rKG"/>
+                                    <action selector="addToCurrentfuturebox:" destination="f2M-lS-MBm" eventType="touchUpInside" id="1VV-6M-rKG"/>
                                 </connections>
                             </button>
                         </subviews>

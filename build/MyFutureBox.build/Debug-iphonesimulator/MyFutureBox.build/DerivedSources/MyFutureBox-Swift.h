@@ -211,7 +211,7 @@ SWIFT_CLASS("_TtC11MyFutureBox31IndividualProductViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified productTitleLabel;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified addAmountButton;
 - (void)viewDidLoad;
-- (IBAction)addToCurrentMoneybox:(UIButton * _Nonnull)sender;
+- (IBAction)addToCurrentfuturebox:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

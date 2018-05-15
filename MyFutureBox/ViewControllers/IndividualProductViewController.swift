@@ -28,7 +28,7 @@ class IndividualProductViewController: UIViewController {
         productTitleLabel.text = product.productFriendlyName
     }
 
-    @IBAction func addToCurrentMoneybox(_ sender: UIButton) {
+    @IBAction func addToCurrentfuturebox(_ sender: UIButton) {
         guard let product = product else { return }
         APIClient().addAmountToProduct(product.investorProductId) { (response, error) in
             if error == nil {
