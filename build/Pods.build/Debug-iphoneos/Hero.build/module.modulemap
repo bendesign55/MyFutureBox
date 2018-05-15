@@ -1,0 +1,4 @@
+framework module Hero {
+    header "Hero-Swift.h"
+    requires objc
+}

@@ -1,0 +1,483 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CollectionPresenter"
+provides-nominal:
+- "13CollectionKit0A9PresenterC"
+- "13CollectionKit0A9PresenterC0aC9AnimationO"
+- "13CollectionKit0A9PresenterC0aC15UpdateAnimationO"
+provides-member:
+- ["13CollectionKit0A9PresenterC", ""]
+- ["13CollectionKit0A9PresenterC0aC9AnimationO", ""]
+- ["13CollectionKit0A9PresenterC0aC15UpdateAnimationO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- "=="
+- "AssignmentPrecedence"
+- !private "CGAffineTransform"
+- "CGPoint"
+- "CGRect"
+- "CollectionPresenter"
+- "CollectionView"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "UIView"
+depends-member:
+- !private ["Sa", "contains"]
+- !private ["s23BidirectionalCollectionP", "contains"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "alpha"]
+- !private ["So15CALayerDelegateP", "animate"]
+- !private ["So15CALayerDelegateP", "bounds"]
+- !private ["So15CALayerDelegateP", "center"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "hasReloaded"]
+- !private ["So15CALayerDelegateP", "recycleForCollectionKitReuse"]
+- !private ["So15CALayerDelegateP", "reloading"]
+- !private ["So15CALayerDelegateP", "transform"]
+- !private ["So15CALayerDelegateP", "visibleCells"]
+- !private ["SC17CGAffineTransformV", "identity"]
+- !private ["SC17CGAffineTransformV", "scaledBy"]
+- !private ["SC6CGRectV", "bounds"]
+- !private ["SC6CGRectV", "center"]
+- !private ["SC6CGRectV", "intersects"]
+- !private ["SC6CGRectV", "size"]
+- !private ["s7CVarArgP", "alpha"]
+- !private ["s7CVarArgP", "animate"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "center"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "hasReloaded"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s7CVarArgP", "recycleForCollectionKitReuse"]
+- !private ["s7CVarArgP", "reloading"]
+- !private ["s7CVarArgP", "transform"]
+- !private ["s7CVarArgP", "visibleCells"]
+- !private ["s10CollectionP", "contains"]
+- !private ["13CollectionKit0A9PresenterC", "CGAffineTransform"]
+- ["13CollectionKit0A9PresenterC", "CGPoint"]
+- ["13CollectionKit0A9PresenterC", "CGRect"]
+- ["13CollectionKit0A9PresenterC", "CollectionPresenterAnimation"]
+- ["13CollectionKit0A9PresenterC", "CollectionPresenterUpdateAnimation"]
+- ["13CollectionKit0A9PresenterC", "CollectionView"]
+- ["13CollectionKit0A9PresenterC", "Int"]
+- ["13CollectionKit0A9PresenterC", "UIView"]
+- ["13CollectionKit0A9PresenterC", "deinit"]
+- ["13CollectionKit0A9PresenterC", "delete"]
+- ["13CollectionKit0A9PresenterC", "deleteAnimation"]
+- ["13CollectionKit0A9PresenterC", "init"]
+- ["13CollectionKit0A9PresenterC", "insert"]
+- ["13CollectionKit0A9PresenterC", "insertAnimation"]
+- ["13CollectionKit0A9PresenterC", "shift"]
+- ["13CollectionKit0A9PresenterC", "update"]
+- ["13CollectionKit0A9PresenterC", "updateAnimation"]
+- ["13CollectionKit0A9PresenterC0aC9AnimationO", "__derived_enum_equals"]
+- ["13CollectionKit0A9PresenterC0aC9AnimationO", "deinit"]
+- ["13CollectionKit0A9PresenterC0aC9AnimationO", "fade"]
+- ["13CollectionKit0A9PresenterC0aC9AnimationO", "hashValue"]
+- ["13CollectionKit0A9PresenterC0aC9AnimationO", "scale"]
+- ["13CollectionKit0A9PresenterC0aC15UpdateAnimationO", "__derived_enum_equals"]
+- ["13CollectionKit0A9PresenterC0aC15UpdateAnimationO", "deinit"]
+- ["13CollectionKit0A9PresenterC0aC15UpdateAnimationO", "hashValue"]
+- ["13CollectionKit0A9PresenterC0aC15UpdateAnimationO", "normal"]
+- !private ["13CollectionKit0A4ViewC", "bounds"]
+- !private ["13CollectionKit0A4ViewC", "deinit"]
+- !private ["13CollectionKit0A4ViewC", "hasReloaded"]
+- !private ["13CollectionKit0A4ViewC", "reloading"]
+- !private ["13CollectionKit0A4ViewC", "visibleCells"]
+- !private ["s10ComparableP", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "alpha"]
+- !private ["s28CustomDebugStringConvertibleP", "animate"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "center"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "hasReloaded"]
+- !private ["s28CustomDebugStringConvertibleP", "intersects"]
+- !private ["s28CustomDebugStringConvertibleP", "recycleForCollectionKitReuse"]
+- !private ["s28CustomDebugStringConvertibleP", "reloading"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "transform"]
+- !private ["s28CustomDebugStringConvertibleP", "visibleCells"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s29CustomPlaygroundQuickLookableP", "center"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "intersects"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "bounds"]
+- !private ["s17CustomReflectableP", "center"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s17CustomReflectableP", "intersects"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "alpha"]
+- !private ["s23CustomStringConvertibleP", "animate"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "center"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "hasReloaded"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "recycleForCollectionKitReuse"]
+- !private ["s23CustomStringConvertibleP", "reloading"]
+- !private ["s23CustomStringConvertibleP", "transform"]
+- !private ["s23CustomStringConvertibleP", "visibleCells"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "bounds"]
+- !private ["s9DecodableP", "center"]
+- !private ["s9DecodableP", "contains"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9DecodableP", "identity"]
+- !private ["s9DecodableP", "intersects"]
+- !private ["s9DecodableP", "scaledBy"]
+- !private ["s9DecodableP", "size"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "bounds"]
+- !private ["s9EncodableP", "center"]
+- !private ["s9EncodableP", "contains"]
+- !private ["s9EncodableP", "hashValue"]
+- !private ["s9EncodableP", "identity"]
+- !private ["s9EncodableP", "intersects"]
+- !private ["s9EncodableP", "scaledBy"]
+- !private ["s9EncodableP", "size"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "alpha"]
+- !private ["s9EquatableP", "animate"]
+- !private ["s9EquatableP", "bounds"]
+- !private ["s9EquatableP", "center"]
+- ["s9EquatableP", "fade"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "hasReloaded"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "identity"]
+- !private ["s9EquatableP", "intersects"]
+- ["s9EquatableP", "normal"]
+- !private ["s9EquatableP", "recycleForCollectionKitReuse"]
+- !private ["s9EquatableP", "reloading"]
+- ["s9EquatableP", "scale"]
+- !private ["s9EquatableP", "scaledBy"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "transform"]
+- !private ["s9EquatableP", "visibleCells"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "alpha"]
+- !private ["s8HashableP", "animate"]
+- !private ["s8HashableP", "bounds"]
+- !private ["s8HashableP", "center"]
+- ["s8HashableP", "fade"]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "hasReloaded"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "normal"]
+- !private ["s8HashableP", "recycleForCollectionKitReuse"]
+- !private ["s8HashableP", "reloading"]
+- ["s8HashableP", "scale"]
+- !private ["s8HashableP", "transform"]
+- !private ["s8HashableP", "visibleCells"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s10MirrorPathP", "hashValue"]
+- !private ["s17MutableCollectionP", "contains"]
+- !private ["So8NSCodingP", "alpha"]
+- !private ["So8NSCodingP", "animate"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "center"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "hasReloaded"]
+- !private ["So8NSCodingP", "recycleForCollectionKitReuse"]
+- !private ["So8NSCodingP", "reloading"]
+- !private ["So8NSCodingP", "transform"]
+- !private ["So8NSCodingP", "visibleCells"]
+- !private ["So8NSObjectC", "alpha"]
+- !private ["So8NSObjectC", "animate"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "center"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "hasReloaded"]
+- !private ["So8NSObjectC", "recycleForCollectionKitReuse"]
+- !private ["So8NSObjectC", "reloading"]
+- !private ["So8NSObjectC", "transform"]
+- !private ["So8NSObjectC", "visibleCells"]
+- !private ["So16NSObjectProtocolP", "alpha"]
+- !private ["So16NSObjectProtocolP", "animate"]
+- !private ["So16NSObjectProtocolP", "bounds"]
+- !private ["So16NSObjectProtocolP", "center"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "hasReloaded"]
+- !private ["So16NSObjectProtocolP", "recycleForCollectionKitReuse"]
+- !private ["So16NSObjectProtocolP", "reloading"]
+- !private ["So16NSObjectProtocolP", "transform"]
+- !private ["So16NSObjectProtocolP", "visibleCells"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["s22RandomAccessCollectionP", "contains"]
+- !private ["s26RangeReplaceableCollectionP", "contains"]
+- !private ["s8SequenceP", "contains"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["So29UIAccessibilityIdentificationP", "alpha"]
+- !private ["So29UIAccessibilityIdentificationP", "animate"]
+- !private ["So29UIAccessibilityIdentificationP", "bounds"]
+- !private ["So29UIAccessibilityIdentificationP", "center"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "hasReloaded"]
+- !private ["So29UIAccessibilityIdentificationP", "recycleForCollectionKitReuse"]
+- !private ["So29UIAccessibilityIdentificationP", "reloading"]
+- !private ["So29UIAccessibilityIdentificationP", "transform"]
+- !private ["So29UIAccessibilityIdentificationP", "visibleCells"]
+- !private ["So12UIAppearanceP", "alpha"]
+- !private ["So12UIAppearanceP", "animate"]
+- !private ["So12UIAppearanceP", "bounds"]
+- !private ["So12UIAppearanceP", "center"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "hasReloaded"]
+- !private ["So12UIAppearanceP", "recycleForCollectionKitReuse"]
+- !private ["So12UIAppearanceP", "reloading"]
+- !private ["So12UIAppearanceP", "transform"]
+- !private ["So12UIAppearanceP", "visibleCells"]
+- !private ["So21UIAppearanceContainerP", "alpha"]
+- !private ["So21UIAppearanceContainerP", "animate"]
+- !private ["So21UIAppearanceContainerP", "bounds"]
+- !private ["So21UIAppearanceContainerP", "center"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "hasReloaded"]
+- !private ["So21UIAppearanceContainerP", "recycleForCollectionKitReuse"]
+- !private ["So21UIAppearanceContainerP", "reloading"]
+- !private ["So21UIAppearanceContainerP", "transform"]
+- !private ["So21UIAppearanceContainerP", "visibleCells"]
+- !private ["So17UICoordinateSpaceP", "alpha"]
+- !private ["So17UICoordinateSpaceP", "animate"]
+- !private ["So17UICoordinateSpaceP", "bounds"]
+- !private ["So17UICoordinateSpaceP", "center"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "hasReloaded"]
+- !private ["So17UICoordinateSpaceP", "recycleForCollectionKitReuse"]
+- !private ["So17UICoordinateSpaceP", "reloading"]
+- !private ["So17UICoordinateSpaceP", "transform"]
+- !private ["So17UICoordinateSpaceP", "visibleCells"]
+- !private ["So13UIDynamicItemP", "alpha"]
+- !private ["So13UIDynamicItemP", "animate"]
+- !private ["So13UIDynamicItemP", "bounds"]
+- !private ["So13UIDynamicItemP", "center"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "hasReloaded"]
+- !private ["So13UIDynamicItemP", "recycleForCollectionKitReuse"]
+- !private ["So13UIDynamicItemP", "reloading"]
+- !private ["So13UIDynamicItemP", "transform"]
+- !private ["So13UIDynamicItemP", "visibleCells"]
+- !private ["So18UIFocusEnvironmentP", "alpha"]
+- !private ["So18UIFocusEnvironmentP", "animate"]
+- !private ["So18UIFocusEnvironmentP", "bounds"]
+- !private ["So18UIFocusEnvironmentP", "center"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "hasReloaded"]
+- !private ["So18UIFocusEnvironmentP", "recycleForCollectionKitReuse"]
+- !private ["So18UIFocusEnvironmentP", "reloading"]
+- !private ["So18UIFocusEnvironmentP", "transform"]
+- !private ["So18UIFocusEnvironmentP", "visibleCells"]
+- !private ["So11UIFocusItemP", "alpha"]
+- !private ["So11UIFocusItemP", "animate"]
+- !private ["So11UIFocusItemP", "bounds"]
+- !private ["So11UIFocusItemP", "center"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "hasReloaded"]
+- !private ["So11UIFocusItemP", "recycleForCollectionKitReuse"]
+- !private ["So11UIFocusItemP", "reloading"]
+- !private ["So11UIFocusItemP", "transform"]
+- !private ["So11UIFocusItemP", "visibleCells"]
+- !private ["So30UIPasteConfigurationSupportingP", "alpha"]
+- !private ["So30UIPasteConfigurationSupportingP", "animate"]
+- !private ["So30UIPasteConfigurationSupportingP", "bounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "center"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "hasReloaded"]
+- !private ["So30UIPasteConfigurationSupportingP", "recycleForCollectionKitReuse"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloading"]
+- !private ["So30UIPasteConfigurationSupportingP", "transform"]
+- !private ["So30UIPasteConfigurationSupportingP", "visibleCells"]
+- !private ["So11UIResponderC", "alpha"]
+- !private ["So11UIResponderC", "animate"]
+- !private ["So11UIResponderC", "bounds"]
+- !private ["So11UIResponderC", "center"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "hasReloaded"]
+- !private ["So11UIResponderC", "recycleForCollectionKitReuse"]
+- !private ["So11UIResponderC", "reloading"]
+- !private ["So11UIResponderC", "transform"]
+- !private ["So11UIResponderC", "visibleCells"]
+- !private ["So30UIResponderStandardEditActionsP", "alpha"]
+- !private ["So30UIResponderStandardEditActionsP", "animate"]
+- !private ["So30UIResponderStandardEditActionsP", "bounds"]
+- !private ["So30UIResponderStandardEditActionsP", "center"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "hasReloaded"]
+- !private ["So30UIResponderStandardEditActionsP", "recycleForCollectionKitReuse"]
+- !private ["So30UIResponderStandardEditActionsP", "reloading"]
+- !private ["So30UIResponderStandardEditActionsP", "transform"]
+- !private ["So30UIResponderStandardEditActionsP", "visibleCells"]
+- !private ["So12UIScrollViewC", "bounds"]
+- !private ["So12UIScrollViewC", "hasReloaded"]
+- !private ["So12UIScrollViewC", "reloading"]
+- !private ["So12UIScrollViewC", "visibleCells"]
+- !private ["So18UITraitEnvironmentP", "alpha"]
+- !private ["So18UITraitEnvironmentP", "animate"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "center"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "hasReloaded"]
+- !private ["So18UITraitEnvironmentP", "recycleForCollectionKitReuse"]
+- !private ["So18UITraitEnvironmentP", "reloading"]
+- !private ["So18UITraitEnvironmentP", "transform"]
+- !private ["So18UITraitEnvironmentP", "visibleCells"]
+- !private ["So6UIViewC", "alpha"]
+- !private ["So6UIViewC", "animate"]
+- !private ["So6UIViewC", "bounds"]
+- !private ["So6UIViewC", "center"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "hasReloaded"]
+- !private ["So6UIViewC", "recycleForCollectionKitReuse"]
+- !private ["So6UIViewC", "reloading"]
+- !private ["So6UIViewC", "transform"]
+- !private ["So6UIViewC", "visibleCells"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s23_BidirectionalIndexableP", "contains"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "alpha"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "animate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "center"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "hasReloaded"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "recycleForCollectionKitReuse"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloading"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "transform"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "visibleCells"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s10_IndexableP", "contains"]
+- !private ["s14_IndexableBaseP", "contains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alpha"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "center"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasReloaded"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "recycleForCollectionKitReuse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloading"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "transform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "visibleCells"]
+- !private ["s17_MutableIndexableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "bounds"]
+- !private ["s21_ObjectiveCBridgeableP", "center"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- !private ["s21_ObjectiveCBridgeableP", "identity"]
+- !private ["s21_ObjectiveCBridgeableP", "intersects"]
+- !private ["s21_ObjectiveCBridgeableP", "scaledBy"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s22_RandomAccessIndexableP", "contains"]
+- !private ["s26_RangeReplaceableIndexableP", "contains"]
+- !private ["s11_StrideableP", "hashValue"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "SC17CGAffineTransformV"
+- !private "SC6CGRectV"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- "13CollectionKit0A9PresenterC"
+- "13CollectionKit0A9PresenterC0aC9AnimationO"
+- "13CollectionKit0A9PresenterC0aC15UpdateAnimationO"
+- !private "13CollectionKit0A4ViewC"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benormos/Desktop/MyFutureBox/Pods/Target Support Files/CollectionKit/CollectionKit-umbrella.h"
+- "/Users/benormos/Desktop/MyFutureBox/build/Pods.build/Debug-iphoneos/CollectionKit.build/unextended-module.modulemap"
+interface-hash: "a2a89fbb1ec396530f9dde510d490ac4"

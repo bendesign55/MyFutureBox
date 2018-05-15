@@ -1,0 +1,4 @@
+framework module ChameleonFramework {
+    header "ChameleonFramework-Swift.h"
+    requires objc
+}

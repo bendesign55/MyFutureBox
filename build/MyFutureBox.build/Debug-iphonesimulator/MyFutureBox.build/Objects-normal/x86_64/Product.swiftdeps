@@ -1,0 +1,317 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Product"
+provides-nominal:
+- "11MyFutureBox7ProductV"
+- "11MyFutureBox7ProductV10CodingKeysO"
+- "11MyFutureBox7ProductV0D8InfoKeysO"
+provides-member:
+- ["11MyFutureBox7ProductV", ""]
+- ["11MyFutureBox7ProductV10CodingKeysO", ""]
+- ["11MyFutureBox7ProductV0D8InfoKeysO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "CodingKey"
+- "Decodable"
+- "Decoder"
+- "Double"
+- "Int"
+- "Product"
+- "String"
+- "StringLiteralType"
+- !private "~="
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- ["s9CodingKeyP", "RawValue"]
+- !private ["s9CodingKeyP", "annualLimit"]
+- !private ["s9CodingKeyP", "depositLimit"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "investorProductId"]
+- !private ["s9CodingKeyP", "isFavourite"]
+- !private ["s9CodingKeyP", "moneybox"]
+- !private ["s9CodingKeyP", "planValue"]
+- !private ["s9CodingKeyP", "productFriendlyName"]
+- !private ["s9CodingKeyP", "productInfo"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "subscriptionAmount"]
+- ["s9CodingKeyP", ""]
+- ["11MyFutureBox7ProductV10CodingKeysO", "RawValue"]
+- ["11MyFutureBox7ProductV10CodingKeysO", "deinit"]
+- ["11MyFutureBox7ProductV10CodingKeysO", "hashValue"]
+- ["11MyFutureBox7ProductV10CodingKeysO", "init"]
+- ["11MyFutureBox7ProductV10CodingKeysO", "intValue"]
+- ["11MyFutureBox7ProductV10CodingKeysO", "investorProductId"]
+- ["11MyFutureBox7ProductV10CodingKeysO", "isFavourite"]
+- ["11MyFutureBox7ProductV10CodingKeysO", "moneybox"]
+- ["11MyFutureBox7ProductV10CodingKeysO", "planValue"]
+- ["11MyFutureBox7ProductV10CodingKeysO", "productInfo"]
+- ["11MyFutureBox7ProductV10CodingKeysO", "rawValue"]
+- ["11MyFutureBox7ProductV10CodingKeysO", "stringValue"]
+- ["11MyFutureBox7ProductV10CodingKeysO", "subscriptionAmount"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "Bool"]
+- !private ["s9DecodableP", "CodingKeys"]
+- !private ["s9DecodableP", "Double"]
+- !private ["s9DecodableP", "Int"]
+- !private ["s9DecodableP", "ProductInfoKeys"]
+- !private ["s9DecodableP", "String"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "annualLimit"]
+- !private ["s9DecodableP", "depositLimit"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "investorProductId"]
+- !private ["s9DecodableP", "isFavourite"]
+- !private ["s9DecodableP", "moneybox"]
+- !private ["s9DecodableP", "planValue"]
+- !private ["s9DecodableP", "productFriendlyName"]
+- !private ["s9DecodableP", "subscriptionAmount"]
+- ["s9DecodableP", ""]
+- !private ["s7DecoderP", "container"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "annualLimit"]
+- !private ["s9EquatableP", "depositLimit"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "intValue"]
+- !private ["s9EquatableP", "investorProductId"]
+- !private ["s9EquatableP", "isFavourite"]
+- !private ["s9EquatableP", "moneybox"]
+- !private ["s9EquatableP", "planValue"]
+- !private ["s9EquatableP", "productFriendlyName"]
+- !private ["s9EquatableP", "productInfo"]
+- ["s9EquatableP", "rawValue"]
+- ["s9EquatableP", "stringValue"]
+- !private ["s9EquatableP", "subscriptionAmount"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "annualLimit"]
+- !private ["s8HashableP", "depositLimit"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "intValue"]
+- !private ["s8HashableP", "investorProductId"]
+- !private ["s8HashableP", "isFavourite"]
+- !private ["s8HashableP", "moneybox"]
+- !private ["s8HashableP", "planValue"]
+- !private ["s8HashableP", "productFriendlyName"]
+- !private ["s8HashableP", "productInfo"]
+- ["s8HashableP", "rawValue"]
+- ["s8HashableP", "stringValue"]
+- !private ["s8HashableP", "subscriptionAmount"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "nestedContainer"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "nestedContainer"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["s7NumericP", "hashValue"]
+- ["11MyFutureBox7ProductV", "Bool"]
+- ["11MyFutureBox7ProductV", "CodingKey"]
+- ["11MyFutureBox7ProductV", "CodingKeys"]
+- ["11MyFutureBox7ProductV", "Decoder"]
+- ["11MyFutureBox7ProductV", "Double"]
+- ["11MyFutureBox7ProductV", "Int"]
+- ["11MyFutureBox7ProductV", "ProductInfoKeys"]
+- ["11MyFutureBox7ProductV", "String"]
+- ["11MyFutureBox7ProductV", "annualLimit"]
+- ["11MyFutureBox7ProductV", "deinit"]
+- ["11MyFutureBox7ProductV", "depositLimit"]
+- ["11MyFutureBox7ProductV", "init"]
+- ["11MyFutureBox7ProductV", "investorProductId"]
+- ["11MyFutureBox7ProductV", "isFavourite"]
+- ["11MyFutureBox7ProductV", "moneybox"]
+- ["11MyFutureBox7ProductV", "planValue"]
+- ["11MyFutureBox7ProductV", "productFriendlyName"]
+- ["11MyFutureBox7ProductV", "subscriptionAmount"]
+- ["11MyFutureBox7ProductV0D8InfoKeysO", "RawValue"]
+- ["11MyFutureBox7ProductV0D8InfoKeysO", "annualLimit"]
+- ["11MyFutureBox7ProductV0D8InfoKeysO", "deinit"]
+- ["11MyFutureBox7ProductV0D8InfoKeysO", "depositLimit"]
+- ["11MyFutureBox7ProductV0D8InfoKeysO", "hashValue"]
+- ["11MyFutureBox7ProductV0D8InfoKeysO", "init"]
+- ["11MyFutureBox7ProductV0D8InfoKeysO", "intValue"]
+- ["11MyFutureBox7ProductV0D8InfoKeysO", "productFriendlyName"]
+- ["11MyFutureBox7ProductV0D8InfoKeysO", "rawValue"]
+- ["11MyFutureBox7ProductV0D8InfoKeysO", "stringValue"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- !private ["s16RawRepresentableP", "annualLimit"]
+- !private ["s16RawRepresentableP", "depositLimit"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "intValue"]
+- !private ["s16RawRepresentableP", "investorProductId"]
+- !private ["s16RawRepresentableP", "isFavourite"]
+- !private ["s16RawRepresentableP", "moneybox"]
+- !private ["s16RawRepresentableP", "planValue"]
+- !private ["s16RawRepresentableP", "productFriendlyName"]
+- !private ["s16RawRepresentableP", "productInfo"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", "stringValue"]
+- !private ["s16RawRepresentableP", "subscriptionAmount"]
+- ["s16RawRepresentableP", ""]
+- ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "hashValue"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "11MyFutureBox7ProductV10CodingKeysO"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s7DecoderP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- "11MyFutureBox7ProductV"
+- "11MyFutureBox7ProductV0D8InfoKeysO"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/benormos/Desktop/MyFutureBox/build/Debug-iphonesimulator/KeychainSwift/KeychainSwift.framework/Modules/KeychainSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/benormos/Desktop/MyFutureBox/build/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/NVActivityIndicatorView.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benormos/Desktop/MyFutureBox/build/Debug-iphonesimulator/KeychainSwift/KeychainSwift.framework/Headers/KeychainSwift-umbrella.h"
+- "/Users/benormos/Desktop/MyFutureBox/build/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-umbrella.h"
+- "/Users/benormos/Desktop/MyFutureBox/build/Debug-iphonesimulator/KeychainSwift/KeychainSwift.framework/Headers/KeychainSwift-Swift.h"
+- "/Users/benormos/Desktop/MyFutureBox/build/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-Swift.h"
+- "/Users/benormos/Desktop/MyFutureBox/build/Debug-iphonesimulator/KeychainSwift/KeychainSwift.framework/Modules/module.modulemap"
+- "/Users/benormos/Desktop/MyFutureBox/build/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/module.modulemap"
+interface-hash: "376e6cdbd6d74de500695f130ed42a25"

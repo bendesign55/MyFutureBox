@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "f5c6f2ad8bac12cecf7e55ea2574b157"
+build_time: [1524663330, 335986000]
+inputs:
+  "/Users/benormos/Desktop/MyFutureBox/Pods/KeychainSwift/Sources/KeychainSwift.swift": [1524507947, 0]
+  "/Users/benormos/Desktop/MyFutureBox/Pods/KeychainSwift/Sources/KeychainSwiftAccessOptions.swift": [1524507947, 0]
+  "/Users/benormos/Desktop/MyFutureBox/Pods/KeychainSwift/Sources/TegKeychainConstants.swift": [1524507947, 0]

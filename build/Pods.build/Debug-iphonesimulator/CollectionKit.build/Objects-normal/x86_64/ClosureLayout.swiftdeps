@@ -1,0 +1,142 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Closurelayout"
+provides-nominal:
+- "13CollectionKit13ClosurelayoutC"
+provides-member:
+- ["13CollectionKit13ClosurelayoutC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "..<"
+- "AssignmentPrecedence"
+- "CGRect"
+- "CGSize"
+- "Closurelayout"
+- "CollectionDataProvider"
+- "CollectionSizeProvider"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "SimpleLayout"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s7CVarArgP", "append"]
+- ["13CollectionKit13ClosurelayoutC", "CGRect"]
+- ["13CollectionKit13ClosurelayoutC", "CGSize"]
+- ["13CollectionKit13ClosurelayoutC", "CollectionDataProvider"]
+- ["13CollectionKit13ClosurelayoutC", "CollectionSizeProvider"]
+- ["13CollectionKit13ClosurelayoutC", "Data"]
+- ["13CollectionKit13ClosurelayoutC", "Int"]
+- ["13CollectionKit13ClosurelayoutC", "deinit"]
+- ["13CollectionKit13ClosurelayoutC", "frameProvider"]
+- ["13CollectionKit13ClosurelayoutC", "init"]
+- ["13CollectionKit13ClosurelayoutC", "simpleLayout"]
+- !private ["s10CollectionP", "append"]
+- !private ["13CollectionKit0A12DataProviderC", "data"]
+- !private ["13CollectionKit0A12DataProviderC", "numberOfItems"]
+- ["13CollectionKit0A6LayoutC", "CGRect"]
+- ["13CollectionKit0A6LayoutC", "CGSize"]
+- ["13CollectionKit0A6LayoutC", "CollectionDataProvider"]
+- ["13CollectionKit0A6LayoutC", "CollectionSizeProvider"]
+- ["13CollectionKit0A6LayoutC", "Data"]
+- ["13CollectionKit0A6LayoutC", "Int"]
+- ["13CollectionKit0A6LayoutC", "frameProvider"]
+- ["13CollectionKit0A6LayoutC", "init"]
+- ["13CollectionKit0A6LayoutC", "simpleLayout"]
+- !private ["13CollectionKit0A10ReloadableP", "data"]
+- !private ["13CollectionKit0A10ReloadableP", "numberOfItems"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9EncodableP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s8SequenceP", "append"]
+- ["13CollectionKit12SimpleLayoutC", "CGRect"]
+- ["13CollectionKit12SimpleLayoutC", "CGSize"]
+- ["13CollectionKit12SimpleLayoutC", "CollectionDataProvider"]
+- ["13CollectionKit12SimpleLayoutC", "CollectionSizeProvider"]
+- ["13CollectionKit12SimpleLayoutC", "Data"]
+- ["13CollectionKit12SimpleLayoutC", "Int"]
+- ["13CollectionKit12SimpleLayoutC", "frameProvider"]
+- ["13CollectionKit12SimpleLayoutC", "init"]
+- ["13CollectionKit12SimpleLayoutC", "simpleLayout"]
+- ["13CollectionKit12SimpleLayoutC", ""]
+- !private ["s12StaticStringV", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- "13CollectionKit13ClosurelayoutC"
+- !private "s10CollectionP"
+- !private "13CollectionKit0A12DataProviderC"
+- "13CollectionKit0A6LayoutC"
+- !private "13CollectionKit0A10ReloadableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17MutableCollectionP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- "13CollectionKit12SimpleLayoutC"
+- !private "s12StaticStringV"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benormos/Desktop/MyFutureBox/Pods/Target Support Files/CollectionKit/CollectionKit-umbrella.h"
+- "/Users/benormos/Desktop/MyFutureBox/build/Pods.build/Debug-iphonesimulator/CollectionKit.build/unextended-module.modulemap"
+interface-hash: "594b1521b7d41de7225916d30a799dfd"

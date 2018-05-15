@@ -1,0 +1,278 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EmptyStateCollectionProvider"
+provides-nominal:
+- "13CollectionKit010EmptyStateA8ProviderC"
+provides-member:
+- ["13CollectionKit010EmptyStateA8ProviderC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!=="
+- !private "=="
+- !private "==="
+- !private ">"
+- "AnyCollectionProvider"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "CollectionComposer"
+- "CollectionReloadable"
+- "EmptyStateCollectionProvider"
+- !private "RowLayout"
+- "String"
+- !private "StringLiteralType"
+- "UIView"
+- !private "ViewCollectionProvider"
+- !private "||"
+depends-member:
+- !private ["13CollectionKit03AnyA8ProviderP", "RowLayout"]
+- !private ["13CollectionKit03AnyA8ProviderP", "ViewCollectionProvider"]
+- !private ["13CollectionKit03AnyA8ProviderP", "content"]
+- !private ["13CollectionKit03AnyA8ProviderP", "emptyStateView"]
+- !private ["13CollectionKit03AnyA8ProviderP", "emptyStateViewGetter"]
+- !private ["13CollectionKit03AnyA8ProviderP", "hasReloadable"]
+- !private ["13CollectionKit03AnyA8ProviderP", "identifier"]
+- !private ["13CollectionKit03AnyA8ProviderP", "init"]
+- !private ["13CollectionKit03AnyA8ProviderP", "numberOfItems"]
+- !private ["13CollectionKit03AnyA8ProviderP", "prepareForReload"]
+- !private ["13CollectionKit03AnyA8ProviderP", "sections"]
+- !private ["13CollectionKit03AnyA8ProviderP", "willReload"]
+- ["13CollectionKit03AnyA8ProviderP", ""]
+- !private ["Sa", "first"]
+- ["13CollectionKit04BaseA8ProviderC", "AnyCollectionProvider"]
+- ["13CollectionKit04BaseA8ProviderC", "Bool"]
+- ["13CollectionKit04BaseA8ProviderC", "CollectionReloadable"]
+- !private ["13CollectionKit04BaseA8ProviderC", "RowLayout"]
+- ["13CollectionKit04BaseA8ProviderC", "String"]
+- ["13CollectionKit04BaseA8ProviderC", "UIView"]
+- !private ["13CollectionKit04BaseA8ProviderC", "ViewCollectionProvider"]
+- ["13CollectionKit04BaseA8ProviderC", "content"]
+- ["13CollectionKit04BaseA8ProviderC", "emptyStateView"]
+- ["13CollectionKit04BaseA8ProviderC", "emptyStateViewGetter"]
+- ["13CollectionKit04BaseA8ProviderC", "hasReloadable"]
+- !private ["13CollectionKit04BaseA8ProviderC", "identifier"]
+- !private ["13CollectionKit04BaseA8ProviderC", "prepareForReload"]
+- !private ["13CollectionKit04BaseA8ProviderC", "sections"]
+- ["13CollectionKit04BaseA8ProviderC", "willReload"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s10CollectionP", "first"]
+- !private ["s10CollectionP", "init"]
+- ["13CollectionKit0A8ComposerC", "AnyCollectionProvider"]
+- ["13CollectionKit0A8ComposerC", "Bool"]
+- ["13CollectionKit0A8ComposerC", "CollectionReloadable"]
+- !private ["13CollectionKit0A8ComposerC", "RowLayout"]
+- ["13CollectionKit0A8ComposerC", "String"]
+- ["13CollectionKit0A8ComposerC", "UIView"]
+- !private ["13CollectionKit0A8ComposerC", "ViewCollectionProvider"]
+- ["13CollectionKit0A8ComposerC", "content"]
+- !private ["13CollectionKit0A8ComposerC", "deinit"]
+- ["13CollectionKit0A8ComposerC", "emptyStateView"]
+- ["13CollectionKit0A8ComposerC", "emptyStateViewGetter"]
+- ["13CollectionKit0A8ComposerC", "hasReloadable"]
+- ["13CollectionKit0A8ComposerC", "init"]
+- !private ["13CollectionKit0A8ComposerC", "prepareForReload"]
+- !private ["13CollectionKit0A8ComposerC", "sections"]
+- ["13CollectionKit0A8ComposerC", "willReload"]
+- ["13CollectionKit0A8ComposerC", ""]
+- !private ["13CollectionKit0A6LayoutC", "transposed"]
+- !private ["13CollectionKit0A8ProviderC", "identifier"]
+- !private ["13CollectionKit0A10ReloadableP", "RowLayout"]
+- !private ["13CollectionKit0A10ReloadableP", "ViewCollectionProvider"]
+- !private ["13CollectionKit0A10ReloadableP", "content"]
+- !private ["13CollectionKit0A10ReloadableP", "emptyStateView"]
+- !private ["13CollectionKit0A10ReloadableP", "emptyStateViewGetter"]
+- !private ["13CollectionKit0A10ReloadableP", "hasReloadable"]
+- !private ["13CollectionKit0A10ReloadableP", "identifier"]
+- !private ["13CollectionKit0A10ReloadableP", "init"]
+- !private ["13CollectionKit0A10ReloadableP", "numberOfItems"]
+- !private ["13CollectionKit0A10ReloadableP", "prepareForReload"]
+- !private ["13CollectionKit0A10ReloadableP", "sections"]
+- !private ["13CollectionKit0A10ReloadableP", "willReload"]
+- ["13CollectionKit0A10ReloadableP", ""]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "init"]
+- ["13CollectionKit010EmptyStateA8ProviderC", "AnyCollectionProvider"]
+- ["13CollectionKit010EmptyStateA8ProviderC", "Bool"]
+- ["13CollectionKit010EmptyStateA8ProviderC", "CollectionReloadable"]
+- !private ["13CollectionKit010EmptyStateA8ProviderC", "RowLayout"]
+- ["13CollectionKit010EmptyStateA8ProviderC", "String"]
+- ["13CollectionKit010EmptyStateA8ProviderC", "UIView"]
+- !private ["13CollectionKit010EmptyStateA8ProviderC", "ViewCollectionProvider"]
+- ["13CollectionKit010EmptyStateA8ProviderC", "content"]
+- ["13CollectionKit010EmptyStateA8ProviderC", "deinit"]
+- ["13CollectionKit010EmptyStateA8ProviderC", "emptyStateView"]
+- ["13CollectionKit010EmptyStateA8ProviderC", "emptyStateViewGetter"]
+- ["13CollectionKit010EmptyStateA8ProviderC", "hasReloadable"]
+- ["13CollectionKit010EmptyStateA8ProviderC", "init"]
+- !private ["13CollectionKit010EmptyStateA8ProviderC", "prepareForReload"]
+- !private ["13CollectionKit010EmptyStateA8ProviderC", "sections"]
+- ["13CollectionKit010EmptyStateA8ProviderC", "willReload"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- !private ["13CollectionKit22HorizontalSimpleLayoutC", "transposed"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["13CollectionKit9RowLayoutC", "init"]
+- !private ["13CollectionKit9RowLayoutC", "transposed"]
+- !private ["s8SequenceP", "first"]
+- !private ["s8SequenceP", "init"]
+- !private ["13CollectionKit12SimpleLayoutC", "transposed"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["13CollectionKit04ViewA8ProviderC", "deinit"]
+- !private ["13CollectionKit04ViewA8ProviderC", "identifier"]
+- !private ["13CollectionKit04ViewA8ProviderC", "init"]
+- !private ["13CollectionKit04ViewA8ProviderC0C12SizeStrategyO", "fill"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s23_BidirectionalIndexableP", "first"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "first"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "first"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s17_MutableIndexableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "first"]
+- !private ["s26_RangeReplaceableIndexableP", "first"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "13CollectionKit03AnyA8ProviderP"
+- !private "Sa"
+- "13CollectionKit04BaseA8ProviderC"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- "13CollectionKit0A8ComposerC"
+- !private "13CollectionKit0A6LayoutC"
+- !private "13CollectionKit0A8ProviderC"
+- "13CollectionKit0A10ReloadableP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- "13CollectionKit010EmptyStateA8ProviderC"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "13CollectionKit22HorizontalSimpleLayoutC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "13CollectionKit9RowLayoutC"
+- !private "s8SequenceP"
+- !private "13CollectionKit12SimpleLayoutC"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "13CollectionKit04ViewA8ProviderC"
+- !private "13CollectionKit04ViewA8ProviderC0C12SizeStrategyO"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benormos/Desktop/MyFutureBox/Pods/Target Support Files/CollectionKit/CollectionKit-umbrella.h"
+- "/Users/benormos/Desktop/MyFutureBox/build/Pods.build/Debug-iphonesimulator/CollectionKit.build/unextended-module.modulemap"
+interface-hash: "9d1678f6ecee8e7a59a9dbe5eceda15b"

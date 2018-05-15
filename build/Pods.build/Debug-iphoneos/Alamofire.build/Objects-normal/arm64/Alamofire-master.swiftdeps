@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "9c85f1e2812a1f8701ebc95ddac15b3b"
+build_time: [1524660173, 888398000]
+inputs:
+  "/Users/benormos/Desktop/MyFutureBox/Pods/Alamofire/Source/AFError.swift": [1524659923, 0]
+  "/Users/benormos/Desktop/MyFutureBox/Pods/Alamofire/Source/Alamofire.swift": [1524659923, 0]
+  "/Users/benormos/Desktop/MyFutureBox/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1524659923, 0]
+  "/Users/benormos/Desktop/MyFutureBox/Pods/Alamofire/Source/MultipartFormData.swift": [1524659923, 0]
+  "/Users/benormos/Desktop/MyFutureBox/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1524659923, 0]
+  "/Users/benormos/Desktop/MyFutureBox/Pods/Alamofire/Source/Notifications.swift": [1524659923, 0]
+  "/Users/benormos/Desktop/MyFutureBox/Pods/Alamofire/Source/ParameterEncoding.swift": [1524659923, 0]
+  "/Users/benormos/Desktop/MyFutureBox/Pods/Alamofire/Source/Request.swift": [1524659923, 0]
+  "/Users/benormos/Desktop/MyFutureBox/Pods/Alamofire/Source/Response.swift": [1524659923, 0]
+  "/Users/benormos/Desktop/MyFutureBox/Pods/Alamofire/Source/ResponseSerialization.swift": [1524659923, 0]
+  "/Users/benormos/Desktop/MyFutureBox/Pods/Alamofire/Source/Result.swift": [1524659923, 0]
+  "/Users/benormos/Desktop/MyFutureBox/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1524659923, 0]
+  "/Users/benormos/Desktop/MyFutureBox/Pods/Alamofire/Source/SessionDelegate.swift": [1524659923, 0]
+  "/Users/benormos/Desktop/MyFutureBox/Pods/Alamofire/Source/SessionManager.swift": [1524659923, 0]
+  "/Users/benormos/Desktop/MyFutureBox/Pods/Alamofire/Source/TaskDelegate.swift": [1524659923, 0]
+  "/Users/benormos/Desktop/MyFutureBox/Pods/Alamofire/Source/Timeline.swift": [1524659923, 0]
+  "/Users/benormos/Desktop/MyFutureBox/Pods/Alamofire/Source/Validation.swift": [1524659923, 0]

@@ -1,0 +1,19 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "d1098406808d6111d32eb24057f99b65"
+build_time: [1525256601, 945849000]
+inputs:
+  "/Users/benormos/Desktop/MyFutureBox/MyFutureBox/Extensions/UITextFieldExtensions.swift": [1524658886, 0]
+  "/Users/benormos/Desktop/MyFutureBox/MyFutureBox/Networking/Header.swift": [1524655189, 0]
+  "/Users/benormos/Desktop/MyFutureBox/MyFutureBox/ViewControllers/IndividualProductViewController.swift": [1524658678, 0]
+  "/Users/benormos/Desktop/MyFutureBox/MyFutureBox/ViewControllers/LoginViewController.swift": [1524664156, 0]
+  "/Users/benormos/Desktop/MyFutureBox/MyFutureBox/Views/ProductCollectionViewCell.swift": [1524660221, 0]
+  "/Users/benormos/Desktop/MyFutureBox/MyFutureBox/Models/Session.swift": [1524645573, 0]
+  "/Users/benormos/Desktop/MyFutureBox/MyFutureBox/Extensions/Keychain+Token.swift": [1524651935, 0]
+  "/Users/benormos/Desktop/MyFutureBox/MyFutureBox/ViewControllers/ProductOverviewViewController.swift": [1524826566, 0]
+  "/Users/benormos/Desktop/MyFutureBox/MyFutureBox/AppDelegate.swift": [1524405405, 0]
+  "/Users/benormos/Desktop/MyFutureBox/MyFutureBox/Models/Products.swift": [1524648528, 0]
+  "/Users/benormos/Desktop/MyFutureBox/MyFutureBox/Extensions/UIButtonExtensions.swift": [1524578381, 0]
+  "/Users/benormos/Desktop/MyFutureBox/MyFutureBox/Models/Product.swift": [1524502643, 0]
+  "/Users/benormos/Desktop/MyFutureBox/MyFutureBox/Networking/APIClient.swift": [1524662930, 0]
+  "/Users/benormos/Desktop/MyFutureBox/MyFutureBox/Networking/URLManager.swift": [1524488430, 0]
+  "/Users/benormos/Desktop/MyFutureBox/MyFutureBox/Extensions/Double+MoneyFormatter.swift": [1524500888, 0]

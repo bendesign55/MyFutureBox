@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D04378ED8CBC455CBAE2E5F /* Pods_MyFutureBoxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EDFC41FB909DA2CB641E4A /* Pods_MyFutureBoxUITests.framework */; };
+		A80FF660208E0DBD008A7A8C /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80FF65F208E0DBD008A7A8C /* APIClient.swift */; };
+		A80FF662208E0E74008A7A8C /* URLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80FF661208E0E74008A7A8C /* URLManager.swift */; };
+		A80FF666208E26C3008A7A8C /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80FF665208E26C3008A7A8C /* ProductCollectionViewCell.swift */; };
+		A80FF668208E2D99008A7A8C /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80FF667208E2D99008A7A8C /* Products.swift */; };
+		A80FF66A208E30ED008A7A8C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80FF669208E30ED008A7A8C /* Product.swift */; };
+		A80FF66E208E3609008A7A8C /* Double+MoneyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80FF66D208E3609008A7A8C /* Double+MoneyFormatter.swift */; };
+		A8424F1D208F5903004D1C34 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8424F1C208F5903004D1C34 /* Header.swift */; };
+		A8424F1F208F5A80004D1C34 /* Keychain+Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8424F1E208F5A80004D1C34 /* Keychain+Token.swift */; };
+		A8424F23208F6D79004D1C34 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8424F22208F6D79004D1C34 /* Session.swift */; };
 		A8975E03208CCC1D00E7E7B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8975E02208CCC1D00E7E7B4 /* AppDelegate.swift */; };
-		A8975E05208CCC1D00E7E7B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8975E04208CCC1D00E7E7B4 /* ViewController.swift */; };
+		A8975E05208CCC1D00E7E7B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8975E04208CCC1D00E7E7B4 /* LoginViewController.swift */; };
 		A8975E08208CCC1D00E7E7B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8975E06208CCC1D00E7E7B4 /* Main.storyboard */; };
 		A8975E0A208CCC1D00E7E7B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8975E09208CCC1D00E7E7B4 /* Assets.xcassets */; };
 		A8975E0D208CCC1D00E7E7B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8975E0B208CCC1D00E7E7B4 /* LaunchScreen.storyboard */; };
 		A8975E18208CCC1D00E7E7B4 /* MyFutureBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8975E17208CCC1D00E7E7B4 /* MyFutureBoxTests.swift */; };
 		A8975E23208CCC1D00E7E7B4 /* MyFutureBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8975E22208CCC1D00E7E7B4 /* MyFutureBoxUITests.swift */; };
+		A8975E35208CCE5D00E7E7B4 /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8975E34208CCE5D00E7E7B4 /* UITextFieldExtensions.swift */; };
+		A8BA8002208E51C8005217E8 /* IndividualProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BA8001208E51C8005217E8 /* IndividualProductViewController.swift */; };
+		A8FE303B208CE0E900B3687E /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FE303A208CE0E900B3687E /* UIButtonExtensions.swift */; };
+		A8FE303D208CEA5D00B3687E /* ProductOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FE303C208CEA5D00B3687E /* ProductOverviewViewController.swift */; };
+		BF27F2F7B9BFD24290C7932B /* Pods_MyFutureBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AEDC2EADB1D9DC46B62618 /* Pods_MyFutureBox.framework */; };
+		F1F40514D940E9192766542D /* Pods_MyFutureBoxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58433867F206D5E17DBE28E2 /* Pods_MyFutureBoxTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +50,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E132A04C7AE7B16E7E9DFB7 /* Pods-MyFutureBoxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFutureBoxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFutureBoxUITests/Pods-MyFutureBoxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		39AEDC2EADB1D9DC46B62618 /* Pods_MyFutureBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFutureBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4608CA507B6C451356C1A2C8 /* Pods-MyFutureBoxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFutureBoxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFutureBoxTests/Pods-MyFutureBoxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50A9A79E239358D5CF427AA7 /* Pods-MyFutureBoxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFutureBoxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFutureBoxTests/Pods-MyFutureBoxTests.release.xcconfig"; sourceTree = "<group>"; };
+		58433867F206D5E17DBE28E2 /* Pods_MyFutureBoxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFutureBoxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		931B59D2E647EEF4AB6423D9 /* Pods-MyFutureBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFutureBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFutureBox/Pods-MyFutureBox.debug.xcconfig"; sourceTree = "<group>"; };
+		A80FF65F208E0DBD008A7A8C /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A80FF661208E0E74008A7A8C /* URLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLManager.swift; sourceTree = "<group>"; };
+		A80FF665208E26C3008A7A8C /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		A80FF667208E2D99008A7A8C /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		A80FF669208E30ED008A7A8C /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		A80FF66D208E3609008A7A8C /* Double+MoneyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+MoneyFormatter.swift"; sourceTree = "<group>"; };
+		A8424F1C208F5903004D1C34 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		A8424F1E208F5A80004D1C34 /* Keychain+Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Keychain+Token.swift"; sourceTree = "<group>"; };
+		A8424F22208F6D79004D1C34 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		A8975DFF208CCC1D00E7E7B4 /* MyFutureBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFutureBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8975E02208CCC1D00E7E7B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8975E04208CCC1D00E7E7B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8975E04208CCC1D00E7E7B4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A8975E07208CCC1D00E7E7B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8975E09208CCC1D00E7E7B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8975E0C208CCC1D00E7E7B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +78,13 @@
 		A8975E1E208CCC1D00E7E7B4 /* MyFutureBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFutureBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8975E22208CCC1D00E7E7B4 /* MyFutureBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFutureBoxUITests.swift; sourceTree = "<group>"; };
 		A8975E24208CCC1D00E7E7B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8975E34208CCE5D00E7E7B4 /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensions.swift; sourceTree = "<group>"; };
+		A8BA8001208E51C8005217E8 /* IndividualProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualProductViewController.swift; sourceTree = "<group>"; };
+		A8FE303A208CE0E900B3687E /* UIButtonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
+		A8FE303C208CEA5D00B3687E /* ProductOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOverviewViewController.swift; sourceTree = "<group>"; };
+		B01CBB17943C39E1138D02E3 /* Pods-MyFutureBoxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFutureBoxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFutureBoxUITests/Pods-MyFutureBoxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C3EDFC41FB909DA2CB641E4A /* Pods_MyFutureBoxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFutureBoxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52102811097D9908D3A1092 /* Pods-MyFutureBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFutureBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFutureBox/Pods-MyFutureBox.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF27F2F7B9BFD24290C7932B /* Pods_MyFutureBox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F40514D940E9192766542D /* Pods_MyFutureBoxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +108,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D04378ED8CBC455CBAE2E5F /* Pods_MyFutureBoxUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F55E3BB0D46AFC39B71A900 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				931B59D2E647EEF4AB6423D9 /* Pods-MyFutureBox.debug.xcconfig */,
+				F52102811097D9908D3A1092 /* Pods-MyFutureBox.release.xcconfig */,
+				4608CA507B6C451356C1A2C8 /* Pods-MyFutureBoxTests.debug.xcconfig */,
+				50A9A79E239358D5CF427AA7 /* Pods-MyFutureBoxTests.release.xcconfig */,
+				2E132A04C7AE7B16E7E9DFB7 /* Pods-MyFutureBoxUITests.debug.xcconfig */,
+				B01CBB17943C39E1138D02E3 /* Pods-MyFutureBoxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		99FBF7185FD4CD73BF2F30AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39AEDC2EADB1D9DC46B62618 /* Pods_MyFutureBox.framework */,
+				58433867F206D5E17DBE28E2 /* Pods_MyFutureBoxTests.framework */,
+				C3EDFC41FB909DA2CB641E4A /* Pods_MyFutureBoxUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A80FF663208E2663008A7A8C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A8975E06208CCC1D00E7E7B4 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A80FF664208E267D008A7A8C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A80FF665208E26C3008A7A8C /* ProductCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A8975DF6208CCC1D00E7E7B4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +161,8 @@
 				A8975E16208CCC1D00E7E7B4 /* MyFutureBoxTests */,
 				A8975E21208CCC1D00E7E7B4 /* MyFutureBoxUITests */,
 				A8975E00208CCC1D00E7E7B4 /* Products */,
+				5F55E3BB0D46AFC39B71A900 /* Pods */,
+				99FBF7185FD4CD73BF2F30AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +179,13 @@
 		A8975E01208CCC1D00E7E7B4 /* MyFutureBox */ = {
 			isa = PBXGroup;
 			children = (
+				A80FF663208E2663008A7A8C /* Storyboards */,
+				A8975E36208CCE6400E7E7B4 /* Extensions */,
+				A8975E33208CCCA400E7E7B4 /* ViewControllers */,
+				A80FF664208E267D008A7A8C /* Views */,
+				A8975E31208CCC7D00E7E7B4 /* Models */,
+				A8975E30208CCC6B00E7E7B4 /* Networking */,
 				A8975E02208CCC1D00E7E7B4 /* AppDelegate.swift */,
-				A8975E04208CCC1D00E7E7B4 /* ViewController.swift */,
-				A8975E06208CCC1D00E7E7B4 /* Main.storyboard */,
 				A8975E09208CCC1D00E7E7B4 /* Assets.xcassets */,
 				A8975E0B208CCC1D00E7E7B4 /* LaunchScreen.storyboard */,
 				A8975E0E208CCC1D00E7E7B4 /* Info.plist */,
@@ -125,6 +211,47 @@
 			path = MyFutureBoxUITests;
 			sourceTree = "<group>";
 		};
+		A8975E30208CCC6B00E7E7B4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A80FF65F208E0DBD008A7A8C /* APIClient.swift */,
+				A80FF661208E0E74008A7A8C /* URLManager.swift */,
+				A8424F1C208F5903004D1C34 /* Header.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A8975E31208CCC7D00E7E7B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A80FF667208E2D99008A7A8C /* Products.swift */,
+				A80FF669208E30ED008A7A8C /* Product.swift */,
+				A8424F22208F6D79004D1C34 /* Session.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8975E33208CCCA400E7E7B4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A8975E04208CCC1D00E7E7B4 /* LoginViewController.swift */,
+				A8FE303C208CEA5D00B3687E /* ProductOverviewViewController.swift */,
+				A8BA8001208E51C8005217E8 /* IndividualProductViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A8975E36208CCE6400E7E7B4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A8975E34208CCE5D00E7E7B4 /* UITextFieldExtensions.swift */,
+				A8FE303A208CE0E900B3687E /* UIButtonExtensions.swift */,
+				A80FF66D208E3609008A7A8C /* Double+MoneyFormatter.swift */,
+				A8424F1E208F5A80004D1C34 /* Keychain+Token.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8975E27208CCC1D00E7E7B4 /* Build configuration list for PBXNativeTarget "MyFutureBox" */;
 			buildPhases = (
+				C866CBABDE46860AA40C6D6A /* [CP] Check Pods Manifest.lock */,
 				A8975DFB208CCC1D00E7E7B4 /* Sources */,
 				A8975DFC208CCC1D00E7E7B4 /* Frameworks */,
 				A8975DFD208CCC1D00E7E7B4 /* Resources */,
+				E589541A6E95486D91A4D8F9 /* [CP] Embed Pods Frameworks */,
+				F0A9DDD1A043467973F22B47 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +279,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8975E2A208CCC1D00E7E7B4 /* Build configuration list for PBXNativeTarget "MyFutureBoxTests" */;
 			buildPhases = (
+				387A2A8A728205239FBF22C1 /* [CP] Check Pods Manifest.lock */,
 				A8975E0F208CCC1D00E7E7B4 /* Sources */,
 				A8975E10208CCC1D00E7E7B4 /* Frameworks */,
 				A8975E11208CCC1D00E7E7B4 /* Resources */,
+				2A2C148C836D186E6D257188 /* [CP] Embed Pods Frameworks */,
+				8291BDA455C07ADDB23E8272 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +300,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8975E2D208CCC1D00E7E7B4 /* Build configuration list for PBXNativeTarget "MyFutureBoxUITests" */;
 			buildPhases = (
+				AF171B6596D61DD0EAEF1CD3 /* [CP] Check Pods Manifest.lock */,
 				A8975E1A208CCC1D00E7E7B4 /* Sources */,
 				A8975E1B208CCC1D00E7E7B4 /* Frameworks */,
 				A8975E1C208CCC1D00E7E7B4 /* Resources */,
+				0E387393D2EF19AA006D18D9 /* [CP] Embed Pods Frameworks */,
+				63636FFCE77AEC1A1BE6B44E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +390,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E387393D2EF19AA006D18D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyFutureBoxUITests/Pods-MyFutureBoxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A2C148C836D186E6D257188 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyFutureBoxTests/Pods-MyFutureBoxTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		387A2A8A728205239FBF22C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63636FFCE77AEC1A1BE6B44E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyFutureBoxUITests/Pods-MyFutureBoxUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8291BDA455C07ADDB23E8272 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyFutureBoxTests/Pods-MyFutureBoxTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF171B6596D61DD0EAEF1CD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C866CBABDE46860AA40C6D6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E589541A6E95486D91A4D8F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyFutureBox/Pods-MyFutureBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0A9DDD1A043467973F22B47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyFutureBox/Pods-MyFutureBox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A8975DFB208CCC1D00E7E7B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8975E05208CCC1D00E7E7B4 /* ViewController.swift in Sources */,
+				A8975E35208CCE5D00E7E7B4 /* UITextFieldExtensions.swift in Sources */,
+				A8424F1D208F5903004D1C34 /* Header.swift in Sources */,
+				A8BA8002208E51C8005217E8 /* IndividualProductViewController.swift in Sources */,
+				A8975E05208CCC1D00E7E7B4 /* LoginViewController.swift in Sources */,
+				A80FF666208E26C3008A7A8C /* ProductCollectionViewCell.swift in Sources */,
+				A8424F23208F6D79004D1C34 /* Session.swift in Sources */,
+				A8424F1F208F5A80004D1C34 /* Keychain+Token.swift in Sources */,
+				A8FE303D208CEA5D00B3687E /* ProductOverviewViewController.swift in Sources */,
 				A8975E03208CCC1D00E7E7B4 /* AppDelegate.swift in Sources */,
+				A80FF668208E2D99008A7A8C /* Products.swift in Sources */,
+				A8FE303B208CE0E900B3687E /* UIButtonExtensions.swift in Sources */,
+				A80FF66A208E30ED008A7A8C /* Product.swift in Sources */,
+				A80FF660208E0DBD008A7A8C /* APIClient.swift in Sources */,
+				A80FF662208E0E74008A7A8C /* URLManager.swift in Sources */,
+				A80FF66E208E3609008A7A8C /* Double+MoneyFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +711,13 @@
 		};
 		A8975E28208CCC1D00E7E7B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 931B59D2E647EEF4AB6423D9 /* Pods-MyFutureBox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P9359A36T5;
 				INFOPLIST_FILE = MyFutureBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.benormos.MyFutureBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,11 +728,13 @@
 		};
 		A8975E29208CCC1D00E7E7B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F52102811097D9908D3A1092 /* Pods-MyFutureBox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P9359A36T5;
 				INFOPLIST_FILE = MyFutureBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.benormos.MyFutureBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,6 +745,7 @@
 		};
 		A8975E2B208CCC1D00E7E7B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4608CA507B6C451356C1A2C8 /* Pods-MyFutureBoxTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +763,7 @@
 		};
 		A8975E2C208CCC1D00E7E7B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A9A79E239358D5CF427AA7 /* Pods-MyFutureBoxTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +781,7 @@
 		};
 		A8975E2E208CCC1D00E7E7B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E132A04C7AE7B16E7E9DFB7 /* Pods-MyFutureBoxUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +798,7 @@
 		};
 		A8975E2F208CCC1D00E7E7B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B01CBB17943C39E1138D02E3 /* Pods-MyFutureBoxUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

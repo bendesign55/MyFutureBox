@@ -1,0 +1,230 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "defaultSizeProvider"
+- "CollectionProvider"
+provides-nominal:
+- "13CollectionKit0A8ProviderC"
+provides-member:
+- ["13CollectionKit0A8ProviderC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "==="
+- !private "ArrayDataProvider"
+- "AssignmentPrecedence"
+- "BaseCollectionProvider"
+- "Bool"
+- "CGRect"
+- "CGSize"
+- "CastingPrecedence"
+- !private "ClosureViewProvider"
+- "CollectionDataProvider"
+- "CollectionLayout"
+- "CollectionPresenter"
+- "CollectionProvider"
+- "CollectionReloadable"
+- "CollectionSizeProvider"
+- "CollectionViewProvider"
+- !private "FloatLiteralType"
+- "FlowLayout"
+- "Int"
+- !private "IntegerLiteralType"
+- "String"
+- !private "StringLiteralType"
+- "UIView"
+- "Void"
+- "defaultSizeProvider"
+- !private "||"
+depends-member:
+- !private ["13CollectionKit03AnyA8ProviderP", "ArrayDataProvider"]
+- !private ["13CollectionKit03AnyA8ProviderP", "ClosureViewProvider"]
+- ["13CollectionKit03AnyA8ProviderP", "FlowLayout"]
+- !private ["13CollectionKit03AnyA8ProviderP", "dataProvider"]
+- ["13CollectionKit03AnyA8ProviderP", "defaultSizeProvider"]
+- !private ["13CollectionKit03AnyA8ProviderP", "didReload"]
+- !private ["13CollectionKit03AnyA8ProviderP", "didReloadHandler"]
+- !private ["13CollectionKit03AnyA8ProviderP", "init"]
+- !private ["13CollectionKit03AnyA8ProviderP", "layout"]
+- !private ["13CollectionKit03AnyA8ProviderP", "presenter"]
+- !private ["13CollectionKit03AnyA8ProviderP", "setNeedsReload"]
+- !private ["13CollectionKit03AnyA8ProviderP", "sizeProvider"]
+- !private ["13CollectionKit03AnyA8ProviderP", "tapHandler"]
+- !private ["13CollectionKit03AnyA8ProviderP", "viewProvider"]
+- !private ["13CollectionKit03AnyA8ProviderP", "willReload"]
+- !private ["13CollectionKit03AnyA8ProviderP", "willReloadHandler"]
+- ["13CollectionKit03AnyA8ProviderP", ""]
+- !private ["13CollectionKit17ArrayDataProviderC", "init"]
+- !private ["13CollectionKit04BaseA8ProviderC", "ArrayDataProvider"]
+- ["13CollectionKit04BaseA8ProviderC", "Bool"]
+- ["13CollectionKit04BaseA8ProviderC", "CGRect"]
+- ["13CollectionKit04BaseA8ProviderC", "CGSize"]
+- !private ["13CollectionKit04BaseA8ProviderC", "ClosureViewProvider"]
+- ["13CollectionKit04BaseA8ProviderC", "CollectionDataProvider"]
+- ["13CollectionKit04BaseA8ProviderC", "CollectionLayout"]
+- ["13CollectionKit04BaseA8ProviderC", "CollectionPresenter"]
+- ["13CollectionKit04BaseA8ProviderC", "CollectionReloadable"]
+- ["13CollectionKit04BaseA8ProviderC", "CollectionSizeProvider"]
+- ["13CollectionKit04BaseA8ProviderC", "CollectionViewProvider"]
+- ["13CollectionKit04BaseA8ProviderC", "Data"]
+- ["13CollectionKit04BaseA8ProviderC", "DataProvider"]
+- ["13CollectionKit04BaseA8ProviderC", "FlowLayout"]
+- ["13CollectionKit04BaseA8ProviderC", "Int"]
+- ["13CollectionKit04BaseA8ProviderC", "Layout"]
+- ["13CollectionKit04BaseA8ProviderC", "Presenter"]
+- ["13CollectionKit04BaseA8ProviderC", "SizeProvider"]
+- ["13CollectionKit04BaseA8ProviderC", "String"]
+- ["13CollectionKit04BaseA8ProviderC", "TapHandler"]
+- ["13CollectionKit04BaseA8ProviderC", "UIView"]
+- ["13CollectionKit04BaseA8ProviderC", "View"]
+- ["13CollectionKit04BaseA8ProviderC", "ViewProvider"]
+- ["13CollectionKit04BaseA8ProviderC", "Void"]
+- ["13CollectionKit04BaseA8ProviderC", "contentSize"]
+- ["13CollectionKit04BaseA8ProviderC", "dataProvider"]
+- ["13CollectionKit04BaseA8ProviderC", "defaultSizeProvider"]
+- !private ["13CollectionKit04BaseA8ProviderC", "deinit"]
+- ["13CollectionKit04BaseA8ProviderC", "didReload"]
+- ["13CollectionKit04BaseA8ProviderC", "didReloadHandler"]
+- ["13CollectionKit04BaseA8ProviderC", "didTap"]
+- ["13CollectionKit04BaseA8ProviderC", "frame"]
+- ["13CollectionKit04BaseA8ProviderC", "hasReloadable"]
+- ["13CollectionKit04BaseA8ProviderC", "identifier"]
+- ["13CollectionKit04BaseA8ProviderC", "init"]
+- ["13CollectionKit04BaseA8ProviderC", "layout"]
+- ["13CollectionKit04BaseA8ProviderC", "numberOfItems"]
+- ["13CollectionKit04BaseA8ProviderC", "presenter"]
+- !private ["13CollectionKit04BaseA8ProviderC", "setNeedsReload"]
+- ["13CollectionKit04BaseA8ProviderC", "sizeProvider"]
+- ["13CollectionKit04BaseA8ProviderC", "tapHandler"]
+- ["13CollectionKit04BaseA8ProviderC", "update"]
+- ["13CollectionKit04BaseA8ProviderC", "view"]
+- ["13CollectionKit04BaseA8ProviderC", "viewProvider"]
+- ["13CollectionKit04BaseA8ProviderC", "visibleIndexes"]
+- ["13CollectionKit04BaseA8ProviderC", "willReload"]
+- ["13CollectionKit04BaseA8ProviderC", "willReloadHandler"]
+- ["13CollectionKit04BaseA8ProviderC", ""]
+- !private ["13CollectionKit19ClosureViewProviderC", "init"]
+- !private ["13CollectionKit0A12DataProviderC", "data"]
+- !private ["13CollectionKit0A12DataProviderC", "identifier"]
+- !private ["13CollectionKit0A12DataProviderC", "numberOfItems"]
+- !private ["13CollectionKit0A6LayoutC", "contentSize"]
+- !private ["13CollectionKit0A6LayoutC", "frame"]
+- !private ["13CollectionKit0A6LayoutC", "layout"]
+- !private ["13CollectionKit0A6LayoutC", "visibleIndexes"]
+- !private ["13CollectionKit0A8ProviderC", "ArrayDataProvider"]
+- ["13CollectionKit0A8ProviderC", "Bool"]
+- ["13CollectionKit0A8ProviderC", "CGRect"]
+- ["13CollectionKit0A8ProviderC", "CGSize"]
+- !private ["13CollectionKit0A8ProviderC", "ClosureViewProvider"]
+- ["13CollectionKit0A8ProviderC", "CollectionDataProvider"]
+- ["13CollectionKit0A8ProviderC", "CollectionLayout"]
+- ["13CollectionKit0A8ProviderC", "CollectionPresenter"]
+- ["13CollectionKit0A8ProviderC", "CollectionReloadable"]
+- ["13CollectionKit0A8ProviderC", "CollectionSizeProvider"]
+- ["13CollectionKit0A8ProviderC", "CollectionViewProvider"]
+- ["13CollectionKit0A8ProviderC", "Data"]
+- ["13CollectionKit0A8ProviderC", "DataProvider"]
+- ["13CollectionKit0A8ProviderC", "FlowLayout"]
+- ["13CollectionKit0A8ProviderC", "Int"]
+- ["13CollectionKit0A8ProviderC", "Layout"]
+- ["13CollectionKit0A8ProviderC", "Presenter"]
+- ["13CollectionKit0A8ProviderC", "SizeProvider"]
+- ["13CollectionKit0A8ProviderC", "String"]
+- ["13CollectionKit0A8ProviderC", "TapHandler"]
+- ["13CollectionKit0A8ProviderC", "UIView"]
+- ["13CollectionKit0A8ProviderC", "View"]
+- ["13CollectionKit0A8ProviderC", "ViewProvider"]
+- ["13CollectionKit0A8ProviderC", "Void"]
+- ["13CollectionKit0A8ProviderC", "contentSize"]
+- ["13CollectionKit0A8ProviderC", "dataProvider"]
+- ["13CollectionKit0A8ProviderC", "defaultSizeProvider"]
+- ["13CollectionKit0A8ProviderC", "deinit"]
+- ["13CollectionKit0A8ProviderC", "didReload"]
+- ["13CollectionKit0A8ProviderC", "didReloadHandler"]
+- ["13CollectionKit0A8ProviderC", "didTap"]
+- ["13CollectionKit0A8ProviderC", "frame"]
+- ["13CollectionKit0A8ProviderC", "hasReloadable"]
+- ["13CollectionKit0A8ProviderC", "identifier"]
+- ["13CollectionKit0A8ProviderC", "init"]
+- ["13CollectionKit0A8ProviderC", "layout"]
+- ["13CollectionKit0A8ProviderC", "numberOfItems"]
+- ["13CollectionKit0A8ProviderC", "presenter"]
+- !private ["13CollectionKit0A8ProviderC", "setNeedsReload"]
+- ["13CollectionKit0A8ProviderC", "sizeProvider"]
+- ["13CollectionKit0A8ProviderC", "tapHandler"]
+- ["13CollectionKit0A8ProviderC", "update"]
+- ["13CollectionKit0A8ProviderC", "view"]
+- ["13CollectionKit0A8ProviderC", "viewProvider"]
+- ["13CollectionKit0A8ProviderC", "visibleIndexes"]
+- ["13CollectionKit0A8ProviderC", "willReload"]
+- ["13CollectionKit0A8ProviderC", "willReloadHandler"]
+- !private ["13CollectionKit0A10ReloadableP", "ArrayDataProvider"]
+- !private ["13CollectionKit0A10ReloadableP", "ClosureViewProvider"]
+- ["13CollectionKit0A10ReloadableP", "FlowLayout"]
+- !private ["13CollectionKit0A10ReloadableP", "data"]
+- !private ["13CollectionKit0A10ReloadableP", "dataProvider"]
+- ["13CollectionKit0A10ReloadableP", "defaultSizeProvider"]
+- !private ["13CollectionKit0A10ReloadableP", "didReload"]
+- !private ["13CollectionKit0A10ReloadableP", "didReloadHandler"]
+- !private ["13CollectionKit0A10ReloadableP", "identifier"]
+- !private ["13CollectionKit0A10ReloadableP", "init"]
+- !private ["13CollectionKit0A10ReloadableP", "layout"]
+- !private ["13CollectionKit0A10ReloadableP", "numberOfItems"]
+- !private ["13CollectionKit0A10ReloadableP", "presenter"]
+- !private ["13CollectionKit0A10ReloadableP", "setNeedsReload"]
+- !private ["13CollectionKit0A10ReloadableP", "sizeProvider"]
+- !private ["13CollectionKit0A10ReloadableP", "tapHandler"]
+- !private ["13CollectionKit0A10ReloadableP", "viewProvider"]
+- !private ["13CollectionKit0A10ReloadableP", "willReload"]
+- !private ["13CollectionKit0A10ReloadableP", "willReloadHandler"]
+- ["13CollectionKit0A10ReloadableP", ""]
+- !private ["13CollectionKit0A12ViewProviderC", "update"]
+- !private ["13CollectionKit0A12ViewProviderC", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["13CollectionKit10FlowLayoutC", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+depends-nominal:
+- "13CollectionKit03AnyA8ProviderP"
+- !private "13CollectionKit17ArrayDataProviderC"
+- "13CollectionKit04BaseA8ProviderC"
+- !private "13CollectionKit19ClosureViewProviderC"
+- !private "13CollectionKit0A12DataProviderC"
+- !private "13CollectionKit0A6LayoutC"
+- "13CollectionKit0A8ProviderC"
+- "13CollectionKit0A10ReloadableP"
+- !private "13CollectionKit0A12ViewProviderC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "13CollectionKit10FlowLayoutC"
+- !private "s12StaticStringV"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benormos/Desktop/MyFutureBox/Pods/Target Support Files/CollectionKit/CollectionKit-umbrella.h"
+- "/Users/benormos/Desktop/MyFutureBox/build/Pods.build/Debug-iphonesimulator/CollectionKit.build/unextended-module.modulemap"
+interface-hash: "ef8b4ccbfd3b69e2eed0bf95de0c4462"

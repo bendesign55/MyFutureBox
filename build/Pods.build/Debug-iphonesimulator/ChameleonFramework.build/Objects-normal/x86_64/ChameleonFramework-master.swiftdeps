@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "9012c2fb9ef3435c2d26f168e5c2d756"
+build_time: [1524576281, 617037000]
+inputs:
+  "/Users/benormos/Desktop/MyFutureBox/Pods/ChameleonFramework/Pod/Classes/Swift/ChameleonShorthand.swift": [1524507945, 0]

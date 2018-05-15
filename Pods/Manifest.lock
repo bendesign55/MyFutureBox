@@ -1,0 +1,17 @@
+PODS:
+  - KeychainSwift (11.0.0)
+  - NVActivityIndicatorView (4.2.0):
+    - NVActivityIndicatorView/Presenter (= 4.2.0)
+  - NVActivityIndicatorView/Presenter (4.2.0)
+
+DEPENDENCIES:
+  - KeychainSwift
+  - NVActivityIndicatorView
+
+SPEC CHECKSUMS:
+  KeychainSwift: bea6bd9f98af7b8d7ca4aa79fe105c00fab532db
+  NVActivityIndicatorView: 75c9634073e03b31d7e2748cd2417feab1206195
+
+PODFILE CHECKSUM: 3b0dfb4461d5a3896d28202d25379985f74bbfea
+
+COCOAPODS: 1.2.0
